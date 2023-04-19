@@ -7,5 +7,7 @@ eureka:
 microservice:
   customer-service:
     getinfo: http://CUSTOMER-SERVICE/customer-service/customer/find/
-    
-    
+      
+logging:
+  file:
+    name: D:/Workspace/JavaTechie/7_SpringCloudMicroservice/logs/agri-log.log
